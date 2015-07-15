@@ -8,7 +8,7 @@ public class FraudPlayer extends Player {
 	private FraudDice fraudDice;
 	private Player rival;
 
-	FraudPlayer(String name, FraudDice fraudDice, Player rival) {
+	public FraudPlayer(String name, FraudDice fraudDice, Player rival) {
 		super(name, fraudDice);
 		this.fraudDice = fraudDice;
 		this.rival = rival;

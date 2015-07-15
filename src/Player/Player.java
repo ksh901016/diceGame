@@ -9,7 +9,7 @@ public class Player {
 	Dice dice;
 
 	// 생성자
-	Player(String name, Dice dice) {
+	public Player(String name, Dice dice) {
 		this.name = name;
 		this.dice = dice;
 

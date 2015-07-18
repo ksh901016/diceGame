@@ -14,17 +14,17 @@ public class Player {
 		this.dice = dice;
 
 	}
-	
-	public void play(){
+
+	public void play() {
 		score += dice.cast();
 	}
 
 	public String toString() {
 		return this.name + "\t" + this.score;
 	}
-	
-	public void prepare(){
-		
+
+	public void prepare() {
+
 	}
 
 	public int getScore() {
@@ -37,6 +37,10 @@ public class Player {
 
 	public Dice getDice() {
 		return dice;
+	}
+
+	public void setSocre(int score) {
+		this.score = score;
 	}
 
 }
